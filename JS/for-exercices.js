@@ -32,7 +32,7 @@ for (let ind = texto2.length - 1; ind >= 0; ind--) {
 
    const letrasDelTexto = texto2[ind]
  
-   if (letraA.includes(letrasDelTexto))
+   if (letraA.includes(letrasDelTexto.toLowerCase()))
    {
    totalLetrasA++}
 }
