@@ -5,6 +5,6 @@
 const paisesLatam = ["Argentina", "Bahamas", "Barbados", "Belice", "Bolivia", "Brasil" , "Colombia", "Costa Rica", "Cuba", "Chile", "Dominica", "Ecuador", "El Salvador", "Granada", "Guatemala", "Guyana", "Haití", "Honduras", "Jamaica", "México", "Nicaragua", "Panamá", "Paraguay", "Perú", "República", "Dominicana"]
 
 for (let i = 0; i < paisesLatam.length; i++  ){
-      document.write(`<p>${paisesLatam.length - i}-${paisesLatam[i]}</p>`)
+      document.write(`<p>${String((paisesLatam.length - i)).padStart(2,'0')}-${paisesLatam[i]}</p>`)
 
 }
