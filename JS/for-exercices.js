@@ -30,9 +30,9 @@ const letraA = 'a'
 let totalLetrasA = 0
 for (let ind = texto2.length - 1; ind >= 0; ind--) {
 
-   const letrasDelTexto = texto2[ind]
+   let = texto2[ind]
  
-   if (letraA.includes(letrasDelTexto.toLowerCase()))
+   if (letraA.includes(texto2[ind].toLowerCase()))
    {
    totalLetrasA++}
 }
