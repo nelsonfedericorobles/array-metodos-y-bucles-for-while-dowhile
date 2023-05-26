@@ -63,11 +63,8 @@ paisesMundo.forEach ( (paises, indice) => {
 
 
 const tableBodyHTML = document.getElementById("tableBody")
-
-
 paisesMundo.forEach ( (paises, indice) => {
-
-  const posición = String(indice + 1).padStart(2,0)
+const posición = String(indice + 1).padStart(2,0)
   
 //tener en cuenta que el for each va a leer todos los elementos, por lo tanto va a quedar mostrando en pantalla el ultimo. para evitar eso al signo ingual, le anteponemos un mas += para que despues de cada interacción que sobre la constante tableBodyHTML le agregué un elemento parecido al que está leyendo de HTML.
   tableBodyHTML.innerHTML += ` <tr>
@@ -79,9 +76,7 @@ paisesMundo.forEach ( (paises, indice) => {
       
     </tr>
     </table> `
-    
    }
-
 )
 //la función getElementeById consigue del html el elemnto que indicamos, y como abjeto que es ahora tiene una lista funciones, y entre ellas la que usaremos es innerHTML para que introduzcamos el html nuestro JS, y para que desde nuestro JS podamos hacer modificaciones en HTML con el simbolo de atribución que es el =. 
 
