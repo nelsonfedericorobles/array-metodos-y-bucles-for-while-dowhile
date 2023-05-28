@@ -46,6 +46,8 @@ const paisesMundo = [
 ]
 
 const tableBodyHTML = document.getElementById("tableBody")
+const conuntriesForm= document.getElementById("country-form")
+console.log('esta aqui', conuntriesForm)
 
 
 
